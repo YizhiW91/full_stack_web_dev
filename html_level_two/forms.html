@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+  </head>
+  <body>
+
+    <!-- Need to put everything into a form here -->
+    <form>
+      <h1>log in</h1>
+      <h2>Please input email and pswd</h2>
+      <input type="email" name="user_email" value="youremail@server.com">
+      <input type="password" name="user_pswd" value="123456">
+      <input type="submit" name="user_submit" value="Submit">
+    </form>
+
+    <form>
+      <h2>Choose a color</h2>
+      <input type="color" name="" value="">
+    </form>
+
+    <form>
+      <h2>default text input</h2>
+      <input type="text" name="" value="Text box">
+    </form>
+
+    <!-- labels with for -->
+    <!-- Labels can put text in front of a input box -->
+    <form>
+      <h2>Label</h2>
+      <label for="userinput"> Enter input:</label>
+      <!-- ID is a name for unique html element -->
+      <!-- placeholder is more common than default value -->
+      <input id="userinput" type="text" name="" placeholder="REQUIRED" required>
+      <input type="text" name="" placeholder="NOT REQUIRED">
+      <input type="submit" name="" value="Try required vs not required">
+    </form>
+
+    <!-- action triggers when click button -->
+    <form action="https://www.google.com" method="get">
+      <h2>Action</h2>
+      <p>Enter email and take me to google</p>
+      <input type="text" name="mytext" value="">
+      <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>
