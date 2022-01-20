@@ -1,0 +1,13 @@
+/* hierachy of styling from low to high: general tag -> class -> ID */
+
+li{
+  color: red;
+}
+
+.topitems{
+  color: blue;
+}
+
+#two{
+  color: orange;
+}

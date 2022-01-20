@@ -1,0 +1,40 @@
+/* target a specific class, always start with a dot */
+.firstDiv{
+  color: red;
+}
+
+.secDiv{
+  color: blue;
+}
+
+.thirdDiv{
+  border-width: 5px;
+  border-style: double;
+}
+
+/* target a ID, start with hashtag */
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+
+/* Asterisk for selecting every elements, it overwrites class, but not with ID selectors */
+/* *{
+  color: black;
+} */
+
+/* **json Json_siblings**
+select ul right after h3
+*/
+h3 + ul{
+  border: 5px double purple;
+}
+/* anchor tag inside a list */
+li a{
+  color: red;
+}
+/* anchor tag inside a list with a specfic href link*/
+li a[href="www.npr.org"]{
+  color:blue;
+  border: 2px solid orange;
+}

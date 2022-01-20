@@ -1,0 +1,26 @@
+/* comment is between star slash */
+/*
+Css basic format:
+selected_tag{
+  property: value;
+} */
+
+/* set color using name */
+h1{
+  color: cyan;
+}
+/* set color using RGB code, rgb(), can use google color picker for finding color */
+p{
+  color: rgb(8, 84, 8);
+}
+
+/* set color using hexcode, most common use those days */
+li{
+  color: #0895A8
+}
+
+/* set color using rgba, alpha a value is for transparency,
+    between 0 and 1, with 0 being fully transparent, 1 being opaque*/
+h4{
+  color: rgba(255, 97, 0, 0.5);
+}

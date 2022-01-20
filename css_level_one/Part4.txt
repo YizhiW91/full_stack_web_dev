@@ -1,0 +1,3 @@
+Google chrome learning:
+
+use inspect to play with style to adjust css!
