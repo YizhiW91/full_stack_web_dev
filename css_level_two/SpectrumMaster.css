@@ -11,7 +11,7 @@ h1{
 }
 
 td{
-  border: 20px solid transparent;
+  /* border: 20px solid transparent; */
   width: 100px;
   height: 300px;
 }

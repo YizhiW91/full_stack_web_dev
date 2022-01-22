@@ -1,0 +1,42 @@
+body{
+  background-color: #2a9d8f;
+  font-size: 1em;
+}
+
+.main{
+  background-color: #264653;
+  margin:-1.5em 2em -1.5em 2em;
+  padding: 1.5em 1em 1.5em 1em;
+  color: #f4f1de;
+  text-align: center;
+  font-family: Arial;
+}
+
+.content{
+  border: 2px solid transparent;
+  margin: auto;
+  padding: 2em 1em 1em 1em;
+  width: 20em;
+}
+
+.textbox{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.textbox label{
+  display: block;
+  font-size: 1.3em;
+}
+
+.textbox input{
+  width: 18em;
+  height: 2em;
+}
+
+#signup_button{
+  padding: 2em 1.5em;
+  border-radius: 1em;
+  background-color: #F4A261;
+  font-size: 1.5em;
+}
