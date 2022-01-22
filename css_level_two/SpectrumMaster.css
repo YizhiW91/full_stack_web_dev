@@ -1,0 +1,38 @@
+h1{
+  text-align: center;
+  font-family: 'Dongle', sans-serif;
+  font-size: 2em;
+}
+
+.art{
+  margin: auto;
+  /* Instead of border-spacing, adjusting border thickness can also does the trick */
+  border-spacing: 10px;
+}
+
+td{
+  border: 20px solid transparent;
+  width: 100px;
+  height: 300px;
+}
+
+
+#td1{
+  background-color: #264653;
+}
+
+#td2{
+  background-color: #2A9D8F;
+}
+
+#td3{
+  background-color: #E9C46A;
+}
+
+#td4{
+  background-color: #F4A261;
+}
+
+#td5{
+  background-color: #E76F51;
+}

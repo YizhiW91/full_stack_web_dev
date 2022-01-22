@@ -1,0 +1,19 @@
+#top{
+  border: 4px solid blue;
+  /* 25% of the browser */
+  width: 25%;
+  /* center the content */
+  text-align: center;
+  /* center the border using margin */
+  /* top right bottom left */
+  /* auto centers the box directly */
+  margin:auto;
+}
+
+#btm{
+  border: 4px solid red;
+  width: 50%;
+  /* padding is for distance between content and border; */
+  padding: 50px;
+  text-align: center;
+}

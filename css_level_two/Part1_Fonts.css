@@ -1,0 +1,34 @@
+/* Font family */
+
+h1{
+  font-family: "Arial";
+}
+
+p{
+  /* external fonts from Google API */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Font size */
+body{
+  /* not common as using px directly for fonts,
+  but you can set body font-size using px as default */
+  /* font-size: 16px;  16px is usually the default value for 1em*/
+  font-size: 16px;
+}
+
+#two{
+  /* MORE commonly use em as font size, em is the ratio of parent font-size*/
+  font-size: 2.0em;
+}
+
+/* Font style */
+p{
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* text_align, use for position*/
+h1{
+  text-align: center;
+}
