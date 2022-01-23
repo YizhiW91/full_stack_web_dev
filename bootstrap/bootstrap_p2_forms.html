@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container mb-3">
+      <h2>normal form</h2>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text text-muted">im a form-text</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>dropdown list</h2>
+      <form>
+        <select class="form-control" name="myselect">
+          <option value="">1</option>
+          <option value="">2</option>
+        </select>
+      </form>
+    </div><br>
+
+    <div class="container mb-3">
+      <h2>text area</h2>
+        <textarea class="form-control" name="name" rows="8" cols="80"></textarea>
+    </div><br>
+
+    <div class="container mb-3">
+      <h2>File uploader</h2>
+      <input class="form-control" type="file" name="" value="">
+    </div><br>
+
+    <div class="container">
+      <fieldset class="form-group">
+        <legend>radio button</legend>
+        <div class="form-check">
+          <label for="op1">
+            <input type="radio" class="form-check-input" name="op1" value="Test">
+            option1
+          </label>
+        </div>
+      </fieldset>
+    </div>
+
+  </body>
+</html>
