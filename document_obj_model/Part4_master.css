@@ -1,0 +1,28 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+#main{
+  background-color: #adb5bd;
+  text-align: center;
+  padding-bottom: 5em;
+  margin: 0 auto;
+}
+
+#gamePlace{
+  /* background-color: white; */
+}
+
+.board{
+  margin: 5em auto;
+  table-layout: fixed;
+}
+
+.board tr td{
+  width: 3rem;
+  height: 3rem;
+  border: solid;
+  border-color: black;
+  text-align: center;
+  font-size: 1rem;
+}
