@@ -1,0 +1,36 @@
+html{
+  background-color: #dee2e6;
+  color: #212529;
+}
+
+button{
+  border-radius: 50%;
+  background-color: #495057;
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid black;
+}
+
+.defaultChip{
+  background-color: #495057;
+}
+
+.blueChip{
+  background-color: #014f86;
+}
+
+.redChip{
+  background-color: #ef233c;
+}
+
+.board{
+  border-collapse:collapse;
+}
+
+.board td{
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
