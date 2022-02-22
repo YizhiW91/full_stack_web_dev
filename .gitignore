@@ -1,2 +1,5 @@
 .DS_Store
 DJANGO_COURSE*
+__pycache__
+db.*
+*.HEIC
