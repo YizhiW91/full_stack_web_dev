@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Sec App</title>
+    <link rel="stylesheet" href="{% static 'css/mystyle.css' %}">
+  </head>
+  <body>
+    <h1>Here is the webpage access records</h1>
+
+    <div class="djangotwo">
+      {% if acc_rec %}
+        <table>
+          <thead>
+            <th>Name</th>
+            <th>Date accessed</th>
+          </thead>
+
+          {% for acc in acc_rec %}
+            <<tr>
+              <td>{{ acc.name }}</td>
+              <td>{{ acc.date }}</td>
+            </tr>
+          {% endfor %}
+        </table>
+        {% else %}
+        <p>No access records found!</p>
+        {% endif %}
+    </div>
+  </body>
+</html>
