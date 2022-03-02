@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>RELATIVE URL TEMPLATE</title>
+  </head>
+  <body>
+    <h1>MY RELATIVE TEMPLATE</h1>
+    <div class="">
+      <a href="myapp/other.html">This link goes to other using naive path;</a>
+    </div>
+
+    <div class="">
+      <a href="{% url 'myapp:other' %}">This is the way of relative link goes to other;</a>
+    </div>
+
+    <div class="">
+      <a href="{% url 'admin:index' %}">This is the way to call up admin page;</a>
+    </div>
+  </body>
+</html>
