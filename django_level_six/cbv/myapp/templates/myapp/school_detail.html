@@ -1,0 +1,21 @@
+{% extends 'myapp/myapp_base.html' %}
+
+{% block body_block %}
+
+<h3>School details:</h3>
+<p>NAME: {{school_detail.name}}</p>
+<p>principal: {{school_detail.principal}}</p>
+<p>location: {{school_detail.location}}</p>
+<h3>Students:</h3>
+
+{% for student in school_detail.students.all%}
+  <p>{{student.name}} who is {{student.age}} years old</p>
+{% endfor %}
+
+<div class="container">
+  <p><a href="{% url 'myapp:update' pk=school_detail.pk %}"> Update Click here</a></p>
+</div>
+
+<a href="{% url 'myapp:delete' pk=school_detail.pk%}">Go delete!</a>
+
+{% endblock %}
